@@ -1,0 +1,11 @@
+Index: Utils.php
+===================================================================
+
+@@ -266,6 +266,7 @@
+         //Do not send an email if Recurring contribution is done via Direct Mode
+         //We will send email once the IPN is received.
+         if ( $paymentParams['is_recur'] && $form->_contributeMode == 'direct' ) {
++            if ( $form->_paymentProcessor['class_name'] != 'org.webaccess.payment.redfin' )  
+             return true;
+         }
+         
