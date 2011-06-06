@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
  <extension key="org.webaccess.payment.redfin" type="payment">
- <downloadUrl>http://webaccessnet.com:8068/~mayur/payment.RedFin.zip</downloadUrl>
+ <downloadUrl>https://github.com/downloads/webaccess/CiviCRM---Redfin-Payment-Processor-/org.webaccess.payment.redfin.zip</downloadUrl>
   <file>RedFin</file>
   <name>RedFin</name>
   <description>RedFin Payment Processor</description>
